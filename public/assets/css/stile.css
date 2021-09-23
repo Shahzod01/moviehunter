@@ -65,14 +65,14 @@ h3 {
 }
 
 #shell {
+	position: relative;
 	width:1003px;
 	margin:0 auto;
-}
-#header {
-	position:relative;
+	min-height: 100%;
+	height: auto;
 }
 p#logo {
-	position:absolute;
+	position:relative;
 	top:37px;
 	left:0;
 	cursor: pointer;
@@ -173,12 +173,12 @@ p#logo a {
 }
  /*SEARCH FIELD END */
   
-#main {
+.main {
+	position: relative;
+	float: left;
+	width: 100%;
+	height: auto;
 	margin-top: 50px;
-	width: 1003px;
-	border-bottom:1px dashed #413e3e;
-}
-#content {
 }
 .box {
 	width:980px;
@@ -332,26 +332,29 @@ p#logo a {
 .content a {
 	font-size:11px;
 }
-#footer {
-	padding:15px 0 0 0;
+.footer {
+	position: relative;
+	float: left;
+	width: 100%;
 	font-size:10px;
+	
 }
-#footer, #footer a {
+.footer, .footer a {
 	color:#9c9c9c;
 	text-decoration:none;
 }
-#footer a:hover {
+.footer a:hover {
 	text-decoration:none;
 }
-#footer p {
+.#footer p {
 	margin:0;
 	padding:0 0 11px 0;
 	line-height:normal;
 	white-space:nowrap;
 }
-#footer .lf {
+.footer .lf {
 	float:left;
 }
-#footer .rf {
+.footer .rf {
 	float:right;
 }

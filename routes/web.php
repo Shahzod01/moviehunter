@@ -18,12 +18,12 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/login', function () {
-    return view('login');
+Route::get('auth/login', function () {
+    return view('auth/login');
 });
 
-Route::get('/regist', function () {
-    return view('regist');
+Route::get('auth/regist', function () {
+    return view('auth/regist');
 });
 
 Route::get('/upload', function () {

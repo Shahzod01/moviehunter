@@ -1,5 +1,5 @@
-<?php include(app_path().'/includes/header.php'); ?>
-
+@extends('layouts.app')
+@section('content')
 <div class="auth_wrapper">
     <span class="auth_changer">
         <div class="log_route">
@@ -28,9 +28,7 @@
           </div>
 
       </div><!--Auth End-->
-
-    </body>
-</html>
+@endsection
 
 
       
