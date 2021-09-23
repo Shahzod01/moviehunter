@@ -1,8 +1,6 @@
+@extends('layouts.app')
+@section('content')
 
-<?php include(app_path().'/includes/header.php'); ?>
-
-
-<div id="main">
   <div id="content">
     <div class="box">
       <div class="head">
@@ -227,13 +225,4 @@
       <a href="#">Read more</a> </div>
   </div>
   <div class="cl">&nbsp;</div>
-</div>
-<div id="footer">
-  <p class="lf">Copyright &copy; 2010 <a href="#">SiteName</a> - All Rights Reserved</p>
-  <p class="rf">Design by <a href="http://chocotemplates.com/">ChocoTemplates.com</a></p>
-  <div style="clear:both;"></div>
-</div>
-</div>
-<!-- END PAGE SOURCE -->
-</body>
-</html>
+@endsection

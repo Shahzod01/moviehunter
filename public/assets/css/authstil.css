@@ -1,15 +1,9 @@
 .auth_wrapper{
     position: relative;
-    margin:0 auto;
-    margin-top: 130px;
-    width: 600px;
-    height: 80px;
-}
-.auth_changer{
-    position: relative;
-    margin: 0 auto;
-    width: 600px;
-    height: 100px;
+    float: left;
+    margin-top: 60px;
+    width: 100%;
+    height: 500px;
 }
 .auth_changer div{
     position: relative;
@@ -42,11 +36,8 @@
     cursor: pointer;
 }
 .log_bar{
-    position: absolute;
-    top: 100px;
-    left: 0;
-    right:0;
-    margin: auto;
+    position: relative;
+    margin: 0 auto;
     width: 600px;
     height: auto;
 }
@@ -72,7 +63,6 @@
     border-bottom: 1px solid white;
     color: #f3f58a;
 }
-
 .btn_lab{
     width: 604px;
 }
@@ -88,18 +78,11 @@
 
 
 
-
-
-
-
 .reg_bar{
-    position: absolute;
-    top: 100px;
-    left: 0;
-    right:0;
-    margin: auto;
+    position: relative;
+    margin: 0 auto;
     width: 600px;
-    height: auto;   
+    height: auto; 
 }
 .reg_lab{
     position: relative;
