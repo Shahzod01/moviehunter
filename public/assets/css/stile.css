@@ -73,7 +73,7 @@ h3 {
 }
 p#logo {
 	position:relative;
-	top:37px;
+	top:47px;
 	left:0;
 	cursor: pointer;
 	z-index: 1;
@@ -155,11 +155,22 @@ p#logo a {
 	cursor: pointer;
 }
 .films_cat{
-	width: 150px;
+	width: 170px;
+}
+.films_cat:hover{
+	color: #f3f58a;
+}
+.films_cat i {
+	position: relative;
+	float: right;	
 }
 
 .films_list{
 	width: 150px;
+}
+
+.films_list:hover{
+	color: #f3f58a;
 }
 /*SEARCH FIELD START*/
 .search_field{

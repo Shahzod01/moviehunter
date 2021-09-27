@@ -3,6 +3,8 @@
 use illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
+use App\Http\Controllers\UploadController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -26,6 +28,19 @@ Route::get('auth/regist', function () {
     return view('auth/regist');
 });
 
-Route::get('/upload', function () {
-    return view('upload');
+Route::get('uploads/upload', function () {
+    $f = DB::table('film_row')->get()->pluck('film_file_name');
+
+    return view('uploads/upload')->with('f');
+});
+
+Route::post('/uploading', [UploadController::class, 'upload'])->name('uploading');
+
+Route::get('slides/film', function () {
+    return view('slides/film');
+});
+
+
+Route::get('user/user', function () {
+    return view('user/user');
 });

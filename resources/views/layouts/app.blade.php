@@ -8,18 +8,18 @@
         <link rel="stylesheet" href="{{ asset('assets/Semantic-ui/semantic.css') }}" type="text/css">
         <link rel="stylesheet" href="{{ asset('assets/css/stile.css') }}" type="text/css">
         <link rel="stylesheet" href="{{ asset('assets/css/authstil.css') }}" type="text/css">
+        <link rel="stylesheet" href="{{ asset('assets/css/slide.css') }}" type="text/css">
         <link rel="stylesheet" href="{{ asset('assets/css/uploadpage.css') }}" type="text/css">
-<script
-  src="https://code.jquery.com/jquery-3.1.1.min.js"
-  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-  crossorigin="anonymous"></script>
-<script src="{{ asset('assets/Semantic-ui/semantic.min.js') }}"></script>
-         <script src="{{ asset('assets/js/jfunc.js') }}"></script>
+        <link rel="stylesheet" href="{{ asset('assets/css/user.css') }}" type="text/css">
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+        <script src="{{ asset('assets/Semantic-ui/semantic.min.js') }}"></script>
+        <script src="{{ asset('assets/js/jfunc.js') }}"></script>
+        <script src="{{ asset('assets/js/home.js') }}"></script>
     </head>
     <body> 
 <!-- START PAGE SOURCE -->
 <div id="shell">
-    <p id="logo"><a href="#">Moviehunter</a><p>
+    <p id="logo"><a href="http://movhunt/">Moviehunter</a><p>
     <div class="social"> <span>FOLLOW US ON:</span>
       <ul>
         <li><a class="twitter" href="#">twitter</a></li>
@@ -40,7 +40,7 @@
   <div class="results"></div>
 </div>
             </span>
-            <span class="films_cat">Категории фильмов</span>
+            <span class="films_cat"><i class="ui icon angle right"></i>Категории фильмов</span>
         </div>
     </div>
 

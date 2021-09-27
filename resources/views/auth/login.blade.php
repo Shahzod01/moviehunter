@@ -29,6 +29,3 @@
 
       </div><!--Auth End-->
 @endsection
-
-
-      
