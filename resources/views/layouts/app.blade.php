@@ -19,15 +19,14 @@
     <body> 
 <!-- START PAGE SOURCE -->
 <div id="shell">
+
     <p id="logo"><a href="http://movhunt/">Moviehunter</a><p>
-    <div class="social"> <span>FOLLOW US ON:</span>
-      <ul>
-        <li><a class="twitter" href="#">twitter</a></li>
-        <li><a class="facebook" href="#">facebook</a></li>
-        <li><a class="vimeo" href="#">vimeo</a></li>
-        <li><a class="rss" href="#">rss</a></li>
-      </ul>
+
+    <div class="social"> 
+      <a href="http://movhunt/auth/regist"><button class="ui inverted grey button main_reg_button">Регистрация</button></a>
+      <a href="http://movhunt/auth/login"><button class="ui inverted olive button main_log_button">Войти</button></a>
     </div>
+
     <div id="sub-navigation">
         <div class="menu">
             <span class="films_list">Список фильмов</span>       

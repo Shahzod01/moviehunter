@@ -94,9 +94,9 @@ p#logo a {
 
 }
 .social {
+	position: relative;
 	float:right;
-	width:160px;
-	padding-top:11px;
+	width:560px;
 }
 .social span {
 	float:left;
@@ -368,4 +368,11 @@ p#logo a {
 }
 .footer .rf {
 	float:right;
+}
+
+
+.social button{
+	position: relative;
+	float: right;
+	margin-right: 20px;
 }
