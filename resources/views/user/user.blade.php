@@ -11,7 +11,7 @@
 
             <div class="user_info_container">
                 <p class="user_name">Имя: Исмоилов Шервони</p>
-                <p class="user_login">Логин: sherikshaxe@gmail.com</p>                
+                <p class="user_login">Логин: sherikshaxe@gmail.com</p>
                 <label><b>Зарегистрирован:</b><t>3 августа 2021</t></label>
                 <label><b>Количество коментарий:</b><t>173</t></label>               
                 <label><b>Количество публикации:</b><t>12</t></label>              
