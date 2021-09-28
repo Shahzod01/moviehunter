@@ -16,3 +16,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::get('slides/film', function () {
+    return view('slides/film');
+});
+
+Route::get('user/user', function () {
+    return view('user/user');
+});
